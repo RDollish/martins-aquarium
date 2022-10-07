@@ -1,0 +1,142 @@
+body {
+    background-color: #f9eafd;
+}
+
+.header {
+    text-align: center;
+    border: 2px solid black;
+    font-weight: bold;
+    color: black;
+    margin: 0px 0px 20px 0px;
+    padding: 40px 0px 40px 0px;
+    background-image: url("https://media.gettyimages.com/photos/pink-jellyfish-in-san-francisco-aquarium-california-usa-picture-id548565069?s=2048x2048");
+    background-size: cover;
+}
+
+.body_layout {
+    display: grid;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.fish_collection {
+    display: grid;
+    grid-template-columns: 300px 300px 300px
+    /* background-color: black;
+    border: 2px solid black;
+    width: 38%;
+    height: 800px; */
+}
+
+h2 {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: #ffafe4;
+    box-shadow: 5px 10px black;
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fish_list {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px
+}
+
+.fish_card {
+    background-color: #f7b7f6;
+    border: 1px solid black;
+    height: 215px;
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fish__image {
+    height: 100%;
+    width: 100%;
+}
+
+.fish_properties {
+    font-size: larger;
+    font-style: bold;
+    background-color: rgb(249, 230, 246);
+    display: flex;
+    border: 2px dotted black;
+    padding-right: 15px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+.location_tips {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: #ffafe4;
+    box-shadow: 5px 10px black;
+    margin: 10px 10px 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.travel_tips {
+    font-size: larger;
+    font-style: italic;
+    float: left;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    
+}
+
+.locations {
+    font-size: larger;
+    font-style: italic;
+    float: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+
+}
+
+.aside {  
+    display: flex;
+    width: 50%;
+    background-color: #f7b7f6;
+    border: 2px solid black;
+    height: 300px;
+}
+
+.martins_tips {
+    display: flex;
+}
+
+.cleaning_tips {
+    font-size: larger;
+    font-style: italic;
+    height: 200px;
+    display: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+.places {
+    background-color: #f7b7f6;
+    border: 1px solid black;
+    height: 215px;
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px
+}
